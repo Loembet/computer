@@ -1,0 +1,163 @@
+*.html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+.espace-img{
+    text-align: center;
+}
+.classement{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.boite1 ,.boite2{
+    
+    box-shadow: 0 0 0 0  black;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: auto;
+    width: 400px;
+}
+.content1{
+    height: 50%;
+    padding: 0 10px;
+}
+.content2{
+    height: 65%;
+    padding: 0 10px;
+}
+button{
+    display: flex;
+    margin:20px auto;
+}
+.ecran{
+    text-align: justify;
+}
+span{
+    padding: 5px 10px;
+}
+.inh{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cas1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+select{
+    width: 100%;
+}
+.para1{
+    width: 40%;
+    
+}
+.para2{
+    width: 40%;
+    
+}
+.cas1 p{
+    height: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:850px){
+    .para1{
+         width: 40%;
+    padding-right: 30px;
+    border-right: 2px solid rgb(4, 79, 243);
+    height: auto;
+    }
+    .cas1{
+    height: 150px;
+    
+}
+}

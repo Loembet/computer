@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: aqua;
+    height: 300px;
+}
+
+.rapide{
+  display: flex;
+  /* gap: 10px
+  ;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+.ldj{
+  background: #57f5ea73;
+  margin: 40px auto;
+  width: 300px;
+  padding: 10px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: justify;
+  flex-direction: column;
+box-shadow: 2px 0px 11px 2px #0f0f0f
+}
+.ld{
+  margin: 40px auto;
+    width: 300px;
+    align-items: center;
+    align-content: center;
+
+}  
+.ldj:hover{
+  background-color: white;
+  transition: all 1s ease;
+}
+.ipad-image{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.Tiphone {
+  box-shadow: 2px 0px 11px 2px #0f0f0f;
+  border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.tf{
+   height: 250px;
+    width: 300px;
+
+}
+.commander{
+  background-color: #FCD116;
+  padding: 20px 80px;
+  border-radius: 15px ;
+}
+.button .commander{
+  text-align: center;
+}
+.toi{
+  display: flex;
+  justify-content: center;
+  
+  margin: 10px auto;
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+.slide-track {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll 10s linear infinite;
+    width: calc(300px * 6);
+    height: 400px;
+}
+.slide img{
+  width: 100px;
+  height: 100px;
+  flex-shrink: 1;
+}
+
+#carrousel{
+  
+  width: 250px;
+  overflow: auto;
+  border: 2px solid black;
+
+}
+.image{
+  display: flex;
+  animation-duration: 20s;
+  animation-name: mesimages;
+  animation-iteration-count: infinite;
+}
+
+.igt{
+  height: 250px;
+  width: 250px;
+}
+.ipad-image{
+  display: flex;
+   margin: 0 auto;
+  align-items: center;
+justify-content: space-between;
+}
+/* @keyframes mesimages{
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+     transform: translateX(-200px);
+
+  }
+  50%{
+     transform: translateX(-450px);
+  }
+  75%{
+     transform: translateX(-700px);
+
+  }
+  100%{
+    transform: translateX(0);
+
+  }
+
+} */
+
+
+
+
+
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform:translatex(100%);
+  }
+} 
+
+
+
+.p7{
+    font-size: 2.3rem;
+    color: #FCD116;
+
+}
+
+
+.ligne-droite{
+    padding: 0 30px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.face{
+    height: 32px;
+    width: 32px;
+}
+.p6{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.p15{
+    color: white;
+    font-size: 1.5rem;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    display: block;
+    justify-content: space-around;
+}
+.foot{
+    margin: 20px 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.p7{
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+  .rapide{
+    flex-direction: column;
+    align-content: center;
+  }
+  .ipad-image{
+    flex-direction: column;
+    display: block;
+    align-content: center;
+  }
+  .foot{
+    flex-direction: column;
+    width: 70%;
+    gap: 30px;
+    margin: auto;
+  }
+  h3{
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+
+  }
+}
+
+

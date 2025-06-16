@@ -14,6 +14,11 @@
   align-items: center;
 
 }
+
+
+
+
+
 .div-2 {
     display: flex
 ;
@@ -268,8 +273,8 @@ footer{
 .background-samsung{
   background-color: #6a696e;
   justify-content: space-between;
-  height: 450px;
   display: flex;
+  height: auto;
 }
 .sms{
   height: 450px;
@@ -281,6 +286,7 @@ footer{
 }
 .para{
   font-size: 1.1rem;
+  color: white;
 }
 
 .idr{
@@ -298,7 +304,49 @@ h3{
 
 
 
+
+@media screen and (max-width:620px) {
+  .background-samsung{
+    display: block;
+  }
+  .content{
+    width: 100%;
+  }
+  .sms{
+    width: 100%;
+    
+  }
+
+}
+
+
+
+
+
 @media screen and (max-width:900px) {
+  #espace{
+
+        background-color: rgb(31, 29, 29);
+        list-style: none;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        
+    }
+
+
+
+
+
+  .content{
+    width: 30%;
+  }
+  .para{
+    font-size: 1rem;
+    color: white;
+
+  }
   .rapide{
     flex-direction: column;
     align-content: center;

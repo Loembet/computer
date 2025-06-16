@@ -12,6 +12,14 @@
   align-items: center;
 
 }
+
+
+
+
+
+
+
+
 .div-2 {
     display: flex
 ;
@@ -381,6 +389,21 @@ h4{
 }
 
 @media screen and (max-width:900px) {
+  #espace{
+
+        background-color: rgb(31, 29, 29);
+        list-style: none;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 70%;
+        
+    }
+
+
+
+
+
   .rapide{
     flex-direction: column;
     align-content: center;

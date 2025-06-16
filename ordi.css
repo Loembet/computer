@@ -189,16 +189,20 @@ nav ul li ul {
     position: relative;
     border: 1px solid black;
     height: 270px;
+    width: 200px;
 }
 .liste2 a{
     position: relative;
     border: 1px solid black;
     height: 270px;
+    width: 200px;
 }
 .liste3 a{
     position: relative;
      border: 1px solid black;
      height: 270px;
+     
+     width: 200px;
      
 }
 
@@ -236,7 +240,7 @@ nav ul li ul {
     display: block;
     
 }
-.test1{
+.test1 {
     display: flex;
     gap: 20px;
     justify-content: space-around;
@@ -244,6 +248,17 @@ nav ul li ul {
     text-align: center;
     margin-bottom: 15px;
 }
+.test1 a{
+    border: 1px solid black;
+    width: 200px;
+}
+.test2 a{
+    border: 1px solid black;
+    width: 200px;
+
+}
+
+
 .test2{
     display: flex;
     gap: 20px;
@@ -494,12 +509,37 @@ textarea{
 
 
 
-@media screen and (max-width:850px){
+@media screen and (max-width:850px)
+{    #espace{
+    left: 90%;
+    background-color: rgb(37, 35, 35);
+}   
+    .test1 a{
+        width: 60%;
+    }
+    .test2 a{
+        width: 60%;
+    }
+    
+    .liste3 a{
+        width: 60%;
+    }
+    .liste2 a{
+        width: 60%;
+    }
+    .liste1 a{
+    
+    width: 100%;
+    }
+    
+
+    
     .foot{
     flex-direction: column;
     width: 70%;
     gap: 30px;
     margin: auto;
+    text-align:center;
 }
 .search{
     margin: auto;
@@ -512,7 +552,6 @@ textarea{
     }
 
     .div-nav, .div-nav ul{
-
         flex-direction: column;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.295);
@@ -523,9 +562,11 @@ textarea{
 
     .liste1{
         flex-direction: column;
-        margin: auto;
+        margin: 20px auto;
         width: 60%;
-        margin-bottom: 30px;
+        
+        
+        
     }
     .liste2{
         flex-direction: column;
@@ -533,8 +574,12 @@ textarea{
     .liste3{
         flex-direction: column;
     }
-    .test1,.test2{
+    .test1{
         flex-direction: column;
+    }
+    .test2{
+        flex-direction: column;
+
     }
     .infos{
         flex-direction: column;

@@ -122,7 +122,7 @@ h3{
   padding-bottom: 20px;
 }
 .p3{
-  color: #fff;
+  color: black;
   font-size: 1.5rem;
 
 }
@@ -199,6 +199,19 @@ footer{
 
 
 @media screen and (max-width:900px) {
+  .content-form{
+    gap: 50px;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
   .rapide{
     flex-direction: column;
     align-content: center;

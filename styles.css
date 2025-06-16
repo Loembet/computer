@@ -224,7 +224,7 @@ form{
     
     
 }
-/*  */
+
 .lap{
     color: #cc9900;;
 }
@@ -965,14 +965,25 @@ select{
 
 
 
+
     /* <!-----Section de pied de la page----> */
 
 
 @media screen and (max-width:850px){
-    
+    #espace{
+
+        background-color: rgba(44, 41, 41, 0.726);
+        list-style: none;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 90%;
+        
+    }
+
     .div-nav, .div-nav ul{
-        flex-direction: column;
-        align-items: center; 
+    flex-direction: column;
+    align-items: center; 
     }
     .foot{
     flex-direction: column;

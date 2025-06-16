@@ -304,7 +304,7 @@ footer{
 }
 .arrière{
   text-align: justify;
-  height: 400px;
+  height: auto;
   width: 50%;
   margin: 90px auto;
  
@@ -366,6 +366,29 @@ footer{
 
 
 @media screen and (max-width:900px) {
+  .taille{
+    font-size: 1rem;
+  }
+  .background-huawei{
+    height: auto;
+    width: 100%;
+  }
+  .taille1{
+    font-size: 2rem;
+    
+  }
+  
+
+  #espace{
+
+        background-color: rgb(31, 29, 29);
+        list-style: none;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        
+    }
   .rapide{
     flex-direction: column;
     align-content: center;
@@ -381,12 +404,7 @@ footer{
     gap: 30px;
     margin: auto;
   }
-  h3{
-    width: 70%;
-    flex-direction: column;
-    margin: auto;
-
-  }
+  
   .tv{
     flex-direction: column;
     width: 30%;

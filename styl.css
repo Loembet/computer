@@ -536,6 +536,10 @@ footer{
 
 
 
+
+
+
+
 @media screen and (max-width:1125px){
     .formulaire{
        display: none;
@@ -556,6 +560,17 @@ footer{
   }
 
 @media screen and (max-width:900px) {
+
+  #espace{
+
+        background-color: rgb(31, 29, 29);
+        list-style: none;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        
+    }
   h1{
     display: none;
   }

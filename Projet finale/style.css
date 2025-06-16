@@ -970,6 +970,13 @@ select{
 
 
 @media screen and (max-width:850px){
+    .prendre{
+        font-size: 1rem;
+        padding: 10px ;
+    }
+
+
+
     #espace{
 
         background-color: rgba(44, 41, 41, 0.726);
@@ -997,6 +1004,7 @@ select{
 .p10{
     display: none;
 }
+    
       
 } 
 
@@ -1009,7 +1017,7 @@ select{
         background-color: rgba(0, 0, 0, 0.295);
         height: auto;
         padding: 10px;
-        gap: 20px;
+        gap: 30px;
     }
     header{
         background-color: transparent;
@@ -1027,8 +1035,8 @@ select{
         display: none;
     }
     .button{
-        width: 250px;
-        height: 70px;
+        width: 200px;
+        
     }
     
     
